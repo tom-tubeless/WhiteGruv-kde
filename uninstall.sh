@@ -21,7 +21,7 @@ fi
 
 SRC_DIR=$(cd $(dirname $0) && pwd)
 
-THEME_NAME=WhiteSur
+THEME_NAME=WhiteGruv
 LATTE_DIR="$HOME/.config/latte"
 
 uninstall() {
@@ -30,7 +30,7 @@ uninstall() {
   [[ -d ${AURORAE_DIR}/${name} ]] && rm -rfv ${AURORAE_DIR}/${name}*
   [[ -d ${PLASMA_DIR}/${name} ]] && rm -rfv ${PLASMA_DIR}/${name}*
   [[ -f ${SCHEMES_DIR}/${name}.colors ]] && rm -rfv ${SCHEMES_DIR}/${name}*.colors
-  [[ -d ${LOOKFEEL_DIR}/com.github.vinceliuice.${name} ]] && rm -rfv ${LOOKFEEL_DIR}/com.github.vinceliuice.${name}*
+  [[ -d ${LOOKFEEL_DIR}/com.github.tom-tubelesse.${name} ]] && rm -rfv ${LOOKFEEL_DIR}/com.github.tom-tubelesse.${name}*
   [[ -d ${KVANTUM_DIR}/${name} ]] && rm -rfv ${KVANTUM_DIR}/${name}*
   [[ -d ${WALLPAPER_DIR}/${name} ]] && rm -rfv ${WALLPAPER_DIR}/${name}
   [[ -f ${LATTE_DIR}/${name}.layout.latte ]] && rm -rfv ${LATTE_DIR}/${name}.layout.latte

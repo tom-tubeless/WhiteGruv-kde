@@ -21,7 +21,7 @@ fi
 
 SRC_DIR=$(cd $(dirname $0) && pwd)
 
-THEME_NAME=WhiteSur
+THEME_NAME=WhiteGruv
 LATTE_DIR="$HOME/.config/latte"
 
 [[ ! -d ${AURORAE_DIR} ]] && mkdir -p ${AURORAE_DIR}
@@ -38,7 +38,7 @@ install() {
   [[ -d ${AURORAE_DIR}/${name} ]] && rm -rf ${AURORAE_DIR}/${name}*
   [[ -d ${PLASMA_DIR}/${name} ]] && rm -rf ${PLASMA_DIR}/${name}*
   [[ -f ${SCHEMES_DIR}/${name}.colors ]] && rm -rf ${SCHEMES_DIR}/${name}*.colors
-  [[ -d ${LOOKFEEL_DIR}/com.github.vinceliuice.${name} ]] && rm -rf ${LOOKFEEL_DIR}/com.github.vinceliuice.${name}*
+  [[ -d ${LOOKFEEL_DIR}/com.github.tom-tubelesse.${name} ]] && rm -rf ${LOOKFEEL_DIR}/com.github.tom-tubelesse.${name}*
   [[ -d ${KVANTUM_DIR}/${name} ]] && rm -rf ${KVANTUM_DIR}/${name}*
   [[ -d ${WALLPAPER_DIR}/${name} ]] && rm -rf ${WALLPAPER_DIR}/${name}
   [[ -f ${LATTE_DIR}/${name}.layout.latte ]] && rm -rf ${LATTE_DIR}/${name}.layout.latte
